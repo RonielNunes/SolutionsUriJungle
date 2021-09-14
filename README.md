@@ -10,4 +10,16 @@ linguages:
  - C++
  - Python
 
+compile and run codes:
+> In the CMD WINDOS OR LINUX
+ - Java
+ - C
+   - `compile: gcc <name file>.c -o <name file out>`
+   - `run: ./<name file out> or <name file out> or <name file out>.exe `
+ - C++
+   - `compile: g++ <name file>.cpp -o <name file out>`
+   - `run: ./<name file out> or <name file out> or <name file out>.exe `
+ - Python
+
+
 Autor: Roniel Nunes Barbosa
