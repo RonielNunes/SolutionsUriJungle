@@ -3,24 +3,26 @@
 using namespace std;
 
 void solver(){
-    int n;
-    cin >> n;
-    int a = 1, p = 0;
-    int t;
-    for (int i = 0; i < n; i++)
+    int x, a=0,b=1,c=0;
+   cin >> x;
+    for(int i= 1; i < x; i++)
     {
-        if(i == 0){
-            cout << "0 ";
-        }else if (n != n-1){
-            t = a + p;
-            cout << t << " ";
-            a = p;
-            p = t;
-        }else{
-            t = a + p;
-            cout << t << endl;
+        if(i % 2 == 1)
+        {
+            cout << c << " ";
+            c=a+b;
+            a=c;
+        }
+        else if(i ==2)
+            cout << c << " ";
+        else if( i%2==0)
+        {
+            cout << c << " " ;
+            c=a+b;
+            b=c;
         }
     }
+    cout << c << endl;
 }
 int main(int argc, char const *argv[])
 {
