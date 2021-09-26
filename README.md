@@ -9,6 +9,7 @@ linguages:
  - C
  - C++
  - Python
+ - SQL
 
 compile and run codes:
 > In the CMD WINDOS OR LINUX
