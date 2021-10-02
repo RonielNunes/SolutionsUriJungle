@@ -14,6 +14,8 @@ linguages:
 compile and run codes:
 > In the CMD WINDOS OR LINUX
  - Java
+  - `compile: javac Cliente.java`
+  - `run: java Cliente.class` 
  - C
    - `compile: gcc <name file>.c -o <name file out>`
    - `run: ./<name file out> or <name file out> or <name file out>.exe `
