@@ -23,6 +23,7 @@ compile and run codes:
    - `compile: g++ <name file>.cpp -o <name file out>`
    - `run: ./<name file out> or <name file out> or <name file out>.exe `
  - Python
-
+   - `compile: python "meu script.py"`
+   - `run: "meu script.py"`
 
 Autor: Roniel Nunes Barbosa
