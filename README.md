@@ -1,4 +1,4 @@
-# Soluções Uri
+# Solver Uri
 
 The creation of this repository is for code solutions for the [Uri Jungle platform](https://www.urionlinejudge.com.br/).
 
