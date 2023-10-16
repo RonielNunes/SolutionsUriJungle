@@ -9,7 +9,8 @@
 using namespace std;
 
 void solver(){
-    
+    int n; 
+    cin >> n;
     cout << fixed << setprecision(2) <<endl;
 
 }
