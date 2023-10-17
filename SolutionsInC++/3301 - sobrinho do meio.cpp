@@ -9,20 +9,18 @@
 using namespace std;
 
 void solver(){
-    int a, b, c;
-    cin >> a >> b >> c;
+    unsigned short int h, z, l;
+    cin >> h >> z >> l;
 
-    if(b == 5){
-        cout <<"luisinho"<< endl;
-    }else if(b == 6){
-        cout <<"zezinho"<< endl;
-    }else if(b == 7){
-        cout <<"huguinho"<< endl;
-    }
+    if ((z > h && h > l) || (z < h && h < l))
+        cout << "huguinho"<<endl;
+    else if ((h > z && z > l) || (h < z && z < l))
+        cout << "zezinho"<<endl;
+    else
+        cout << "luisinho"<<endl;
 }
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]){
     solver();
     return 0;
 }
