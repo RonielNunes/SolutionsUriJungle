@@ -1,6 +1,7 @@
 # Solver Uri
 
 The creation of this repository is for code solutions for the [Uri Jungle platform](https://www.urionlinejudge.com.br/).
+- [beecrowd](https://www.beecrowd.com.br/judge/pt)
 
 This platform offers many problems to solve and was developed in game themes, as it allows the visualization of ranks among users. Also having the possibility of solving the problems offered in different languages and having fun in annual competitions;
 
