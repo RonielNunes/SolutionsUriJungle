@@ -1,30 +1,40 @@
 # Solver Uri
 
-The creation of this repository is for code solutions for the [Uri Jungle platform](https://www.urionlinejudge.com.br/).
-- [beecrowd](https://www.beecrowd.com.br/judge/pt)
+This repository is dedicated to code solutions for the [Uri Jungle platform](https://www.urionlinejudge.com.br/), with additional solutions for problems on [beecrowd](https://www.beecrowd.com.br/judge/pt).
 
-This platform offers many problems to solve and was developed in game themes, as it allows the visualization of ranks among users. Also having the possibility of solving the problems offered in different languages and having fun in annual competitions;
+The Uri Jungle platform offers a variety of problems designed in game themes, providing users with a visual representation of ranks and the opportunity to solve problems in different languages. It also allows users to participate in annual competitions, adding a competitive and enjoyable aspect to problem-solving.
 
-linguages:
- - Java
- - C
- - C++
- - Python
- - SQL
+### Supported Languages:
+- Java
+- C
+- C++
+- Python
+- SQL
 
-compile and run codes:
-> In the CMD WINDOS OR LINUX
- - Java
-   - `compile: javac Cliente.java`
-   - `run: java Cliente.class` 
- - C
-   - `compile: gcc <name file>.c -o <name file out>`
-   - `run: ./<name file out> or <name file out> or <name file out>.exe `
- - C++
-   - `compile: g++ <name file>.cpp -o <name file out>`
-   - `run: ./<name file out> or <name file out> or <name file out>.exe `
- - Python
-   - `compile: python "meu script.py"`
-   - `run: "meu script.py"`
+### How to Compile and Run Codes:
+**Java:**
+```bash
+# Compile
+javac Cliente.java
+# Run
+java Cliente.class
 
-Autor: Roniel Nunes Barbosa
+**C**
+
+# Compile
+gcc <name file>.c -o <name file out>
+# Run
+./<name file out> or <name file out> or <name file out>.exe
+
+**C++**
+
+# Compile
+g++ <name file>.cpp -o <name file out>
+# Run
+./<name file out> or <name file out> or <name file out>.exe
+
+**Python**
+# Run
+python "meu script.py"
+```
+
